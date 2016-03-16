@@ -1,3 +1,15 @@
+## Supported Release 4.8.0
+### Summary
+This release primarily fixes an issue with `postgresql_conf` values of ipaddresses being considered floats and not getting quoted.
+
+#### Features
+- Add `default_connect_settings` parameter to `postgresql::server`
+
+#### Bugfixes
+- Obscure password in postgresql\_psql type
+- Fix ip address quoting in postgresql\_conf type
+- Fix handling of systemd service on ubuntu
+
 ## Supported Release 4.7.1
 ### Summary
 This release contains some bugfixes and documentation updates.
